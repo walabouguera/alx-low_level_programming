@@ -2,9 +2,9 @@
 /**
  * jack_bauer - Prints the minutes of day
  *
- * Return: no return
+ * Return: Always 0.
  */
-void jak_bauer(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
@@ -28,4 +28,5 @@ void jak_bauer(void)
 			}
 		}
 	}
+	return (0);
 }
